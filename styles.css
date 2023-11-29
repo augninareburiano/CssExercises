@@ -1,0 +1,41 @@
+.box {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* or other values like center, space-around */
+    align-items: center; /* or other values like flex-start, flex-end */
+  }
+  
+  .item {
+    flex: 1; /* Flexible space, can also use fixed values like 100px */
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Define column layout */
+    grid-gap: 10px; /* Gap between grid items */
+  }
+  
+  .a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 3px solid orange;
+  }
+
+  .b {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 3px solid blue;
+  }
+
+  .c {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 3px solid pink;
+  }
