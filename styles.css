@@ -26,16 +26,28 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px solid orange;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    
   }
 
   .b {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    
   }
 
   .c {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px solid pink;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    
   }
